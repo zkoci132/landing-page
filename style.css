@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    height: 140px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.headerLogo{
+    size: 36px;
+    color: #F9FAF8;
+    margin-top: 8px;
+    margin-left: 240px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+
+}
+
+.imageSection{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    background-color: #1F2937;
+    height: 300px;
+}
+
+.webSiteIsAwesomeHeaderText{
+    font-size:  36px;
+    color: #F9FAF8;
+    font-family: Arial;
+}
+
+.webSiteIsAwesomeHeader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 240px;
+    max-width: 300px;
+}
+
+.signUp{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    background-color: lightblue;
+    
+}
+
+.imageHolder{
+    margin-left: 80px;
+    height: 200px;
+    width: 500px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    font-size: 12px;
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+
+}
+
+.headerLinks{
+    size: 18px;
+    
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    margin-right: 240px;
+    
+}
