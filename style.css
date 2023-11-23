@@ -30,6 +30,51 @@ a{
     height: 300px;
 }
 
+.infoSection{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    }
+
+.infoHeader{
+    font-size: 36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 32px;
+
+}
+.imageText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageTextSection{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+.square{
+    height: 120px;
+    width: 120px;
+    
+    
+    background-color: #FFFFFF;
+    border: 3px solid#000080;
+    border-radius: 10px;
+    
+    margin-bottom: 8px;
+}
+
+
+
+.imageText{
+    max-width: 100px;
+    
+}
+
 .webSiteIsAwesomeHeaderText{
     font-size:  36px;
     color: #F9FAF8;
@@ -82,3 +127,92 @@ a{
     margin-right: 240px;
     
 }
+
+.quoteSection{
+    background-color: #E5E7EB;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.quoteText{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 500px;
+}
+
+.quoteAttribute{
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: unset;
+    margin-right: 48px;
+}
+
+.signUpBackground{
+    background-color: lightblue;
+    width: 800px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.signUpSection{
+    display: flex;
+    height: 240px;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.signUpCallToAction{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.ButtonHere{
+    border: 3px solid black;
+    margin: 0 auto;
+
+}
+
+.callHeader{
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+.callText{
+    width: 500px;
+}
+
+.footer{
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
